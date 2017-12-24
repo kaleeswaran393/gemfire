@@ -20,35 +20,35 @@ kaleeswarans-MacBook-Pro:~ kaleeswarankaruppusamy$ gfsh
 Monitor and Manage Pivotal GemFire
 gfsh>
 
-###Command to Start Locator
+### Command to Start Locator
 
 gfsh>start locator —-name=locator --port=10336 --bind-address=localhost --hostname-for-clients=localhost 
 
-###Start Server
+### Start Server
 
 gfsh>start server --hostname-for-clients=localhost --bind-address=localhost --name=server1 --server-port=40408
 
-###create Region
+### Create Region
 We have to create Region to store our entity, we have to create region in gemfire for each entity.
 In the example Peron and address entity are used. so we have to create region for that
 
 gfsh>create region --name=Person --type=REPLICATE
 gfsh>create region --name=Address --type=REPLICATE
 
-###Deploy Jar
+### Deploy Jar
 
 gfsh>deploy --jar=<PROJECT PATH>gemfire/target/gemfire-poc-client-0.1.0-domain.ja
 
-###Query
+### Query
 
 gfsh>query --query="select * from /Person"
 
 
-##Start spring boot application
+## Start spring boot application
 
 Store spring boot application and store data into gemfire cluster server
 
-###Request :
+### Request :
 
 http://localhost:4040/person
 
