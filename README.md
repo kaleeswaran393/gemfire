@@ -1,5 +1,5 @@
 # Gemfire Server Topology
-Below diagraom shows different way of setting up gemfire server.
+Below diagram shows different way of setting up gemfire server.
 
 ![Apache Geode Grafana Dashboards](./doc/gemfire-marchitecture-diagram.png)
 
