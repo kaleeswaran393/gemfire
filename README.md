@@ -65,7 +65,7 @@ localhost:4040/address
 {
 	"id":1,
 	"address": "YISHUN",
-	"postal":"760110"
+	"postal":"780210"
 }
 
 
