@@ -7,7 +7,7 @@ Below diagraom shows different way of setting up gemfire server.
 
 3.Thirde one is, Spring boot act as client and it would cache data at client side would store data at server side by connecting gemfire server using gemfire locator/server. 
 
-In this spring boot we used this third  client server topology. server will run in a different machine and this spring boot connect that server and store/retrive the data
+In this example we demo the third topology client server model. server will run in a different machine and this spring boot connects that server and store/retrive the data.
 
 ![Apache Geode Grafana Dashboards](./doc/gemfire-marchitecture-diagram.png)
 
