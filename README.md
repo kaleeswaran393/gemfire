@@ -50,7 +50,7 @@ gfsh>create region --name=Address --type=REPLICATE
 
 ### Deploy Jar
 
-gfsh>deploy --jar=<PROJECT PATH>gemfire/target/gemfire-poc-client-0.1.0-domain.ja
+gfsh>deploy --jar=<PROJECTPATH>gemfire/target/gemfire-poc-client-0.1.0-domain.ja
 
 ### Query
 
