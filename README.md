@@ -1,13 +1,4 @@
 # Gemfire Server Topology
-Below diagraom shows different way of setting up gemfire server.
-
-1.First one is embadded server, We can create spring boot application and it would start embadded server and cache the data.
-
-2.Seconds one is starting Spring boot application with client server topology, Each spring boot application would start gemfire server internally and it would form cluster, each spring boot application act as a data node in the cluster.
-
-3.Thirde one is, Spring boot act as client and it would store the data data at server side by connecting gemfire server using gemfire locator/server. 
-
-In this example we demo the third topology client server model. server will run in a different machine and this spring boot connects that server and store/retrive the data.
 
 ![Apache Geode Grafana Dashboards](./doc/gemfire-marchitecture-diagram.png)
 
@@ -16,13 +7,12 @@ In this example we demo the third topology client server model. server will run 
 This spring boot application act as a client and cache the data and stores it at server side 
 
 ## Steps to install gemfire server on your local machine
- 1. https://gemfire.docs.pivotal.io/gemfire/getting_started/installation/install_brew.html
+1. https://gemfire.docs.pivotal.io/gemfire/getting_started/installation/install_brew.html
 
- 2. Enter gfsh
+2.enter gfsh
 
 
 kaleeswarans-MacBook-Pro:~ kaleeswarankaruppusamy$ gfsh
-
 
     _________________________     __
    / _____/ ______/ ______/ /____/ /
@@ -51,7 +41,7 @@ gfsh>create region --name=Address --type=REPLICATE
 
 ### Deploy Jar
 
-gfsh>deploy --jar=<PROJECTPATH>gemfire/target/gemfire-poc-client-0.1.0-domain.ja
+gfsh>deploy --jar=<PROJECT PATH>gemfire/target/gemfire-poc-client-0.1.0-domain.ja
 
 ### Query
 
