@@ -1,6 +1,6 @@
 # Gemfire Server Topology
 
-![Apache Geode Grafana Dashboards](./doc/gemfire-marchitecture-diagram)
+![Apache Geode Grafana Dashboards](./doc/gemfire-marchitecture-diagram.png)
 
 # Spring Boot Gemfire (server side Cache)
 
