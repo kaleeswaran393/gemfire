@@ -16,9 +16,9 @@ In this spring boot we used this third  client server topology. server will run 
 This spring boot application act as a client and cache the data and stores it at server side 
 
 ## Steps to install gemfire server on your local machine
-1. https://gemfire.docs.pivotal.io/gemfire/getting_started/installation/install_brew.html
+ 1. https://gemfire.docs.pivotal.io/gemfire/getting_started/installation/install_brew.html
 
-2.Enter gfsh
+ 2. Enter gfsh
 
 
 kaleeswarans-MacBook-Pro:~ kaleeswarankaruppusamy$ gfsh
