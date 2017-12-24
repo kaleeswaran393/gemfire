@@ -5,7 +5,7 @@ Below diagraom shows different way of setting up gemfire server.
 
 2.Seconds one is starting Spring boot application with client server topology, Each spring boot application would start gemfire server internally and it would form cluster, each spring boot application act as a data node in the cluster.
 
-3.Thirde one is, Spring boot act as client and it would cache data at client side would store data at server side by connecting gemfire server using gemfire locator/server. 
+3.Thirde one is, Spring boot act as client and it would store the data data at server side by connecting gemfire server using gemfire locator/server. 
 
 In this example we demo the third topology client server model. server will run in a different machine and this spring boot connects that server and store/retrive the data.
 
