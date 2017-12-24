@@ -1,4 +1,13 @@
 # Gemfire Server Topology
+Below diagraom shows different way of setting up gemfire server.
+
+1.First one is embadded server, We can create spring boot application and it would start embadded server and cache the data.
+
+2.Seconds one is starting Spring boot application with client server topology, Each spring boot application would start gemfire server internally and it would form cluster, each spring boot application act as a data node in the cluster.
+
+3.Thirde one is, Spring boot act as client and it would cache data at client side would store data at server side by connecting gemfire server using gemfire locator/server. 
+
+In this spring boot we used this third  client server topology. server will run in a different machine and this spring boot connect that server and store/retrive the data
 
 ![Apache Geode Grafana Dashboards](./doc/gemfire-marchitecture-diagram.png)
 
