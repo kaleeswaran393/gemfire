@@ -1,19 +1,25 @@
 # Gemfire Server Topology
-Below diagraom shows different way of setting up gemfire server.
-
-1.First one is embadded server, We can create spring boot application and it would start embadded server and cache the data.
-
-2.Seconds one is starting Spring boot application with client server topology, Each spring boot application would start gemfire server internally and it would form cluster, each spring boot application act as a data node in the cluster.
-
-3.Thirde one is, Spring boot act as client and it would store the data data at server side by connecting gemfire server using gemfire locator/server. 
-
-In this example we demo the third topology client server model. server will run in a different machine and this spring boot connects that server and store/retrive the data.
+Below diagram shows different way of setting up gemfire server.
 
 ![Apache Geode Grafana Dashboards](./doc/gemfire-marchitecture-diagram.png)
 
-# Spring Boot Gemfire (server side Cache)
+1.First one is embadded server, We can create spring boot application and it would start embadded server and cache the data.
 
-This spring boot application act as a client and cache the data and stores it at server side 
+   Refer Project : gemfire-topology-1
+   
+2.Seconds one is starting Spring boot application with client server topology, Each spring boot application would start gemfire server internally and it would form cluster, each spring boot application act as a data node in the cluster.
+
+  Refer Project : gemfire-topology-2
+  
+3.Thirde one is, Spring boot act as client and it would store the data data at server side by connecting gemfire server using gemfire locator/server. 
+
+  Refer Project : gemfire-topology-3
+
+# Example for Topology-3
+
+## Spring Boot Gemfire (Client/Server)(Topology-3)
+
+This spring boot application act as a client and gemfire server will be the data node which we need to install separatly
 
 ## Steps to install gemfire server on your local machine
  1. https://gemfire.docs.pivotal.io/gemfire/getting_started/installation/install_brew.html
