@@ -1,0 +1,6 @@
+---
+applications:
+- name: gemfire-poc
+  memory: 1G
+  random-route: false
+  path: target/gemfire-poc-0.1.0.jar

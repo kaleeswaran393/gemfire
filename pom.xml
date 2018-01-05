@@ -6,9 +6,9 @@
     <version>1.0</version>
     <packaging>pom</packaging>
     <modules>
-        <module>gemfire-topolody-3</module>
-        <module>gemfire-topolody-1</module>
-        <module>gemfire-topolody-2</module>
+        <module>gemfire-topology-1</module>
+        <module>gemfire-topology-2</module>
+        <module>gemfire-topology-3</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
